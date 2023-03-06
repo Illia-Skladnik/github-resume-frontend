@@ -15,7 +15,6 @@ export async function getInfo(url, method = 'GET', body) {
     throw new Error("fetch error");
   }
 
-  console.log(response);
   return response.json(response);
 }
 
