@@ -1,0 +1,31 @@
+@import "../../style_utils/utils";
+
+.UserItem {
+  list-style: none;
+  padding: 10px;
+  border: $base-border;
+  border-radius: $main-radius;
+
+  &__category-title {
+    font-weight: 500;
+  }
+
+  &__category-data {
+    color: $dark-red-color;
+
+    &--link {
+      text-decoration: underline;
+      transition: $transition;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+
+  &__del-btn {
+    @extend %base-btn;
+    padding: 3px;
+    margin-top: 5px;
+  }
+}

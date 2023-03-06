@@ -1,0 +1,10 @@
+@import "../../style_utils/utils";
+
+.NotFoundUser {
+  @extend %inside-space-param;
+
+  &__title {
+    font-size: 33px;
+    text-transform: uppercase;
+  }
+}

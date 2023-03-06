@@ -1,0 +1,14 @@
+@import "../../style_utils/utils";
+
+.UserPage {
+  @extend %inside-space-param;
+
+  &__main-info {
+    margin-bottom: 35px;
+  }
+
+  &__title {
+    font-size: 52px;
+    text-transform: uppercase;
+  }
+}

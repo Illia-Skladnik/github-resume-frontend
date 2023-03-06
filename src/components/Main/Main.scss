@@ -1,0 +1,44 @@
+@import "../../style_utils/utils";
+
+.Main {
+  @extend %inside-space-param;
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__title {
+    font-size: 52px;
+    text-transform: uppercase;
+  }
+
+  &__name-input {
+    min-width: 50%;
+    padding: 10px;
+    border: $base-border;
+    border-radius: $main-radius;
+    font-size: inherit;
+    color: inherit;
+
+    &:hover, &:focus {
+      border-color: $dark-red-color;
+    }
+  }
+
+  &__submit-btn {
+    padding: 7px 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    @extend %base-btn;
+  }
+
+  &__get-users-btn {
+    @extend .Main__submit-btn;
+
+    opacity: 0.5;
+    height: fit-content;
+    min-height: 50px;
+  }
+}

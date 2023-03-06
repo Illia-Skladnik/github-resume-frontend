@@ -1,0 +1,19 @@
+@import "../../style_utils/utils";
+
+.RepoCard {
+  border-top: $base-border;
+  border-width: 1px;
+  padding: 10px;
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__title-link {
+    font-size: 23px;
+    font-weight: 500;
+    color: $dark-red-color;
+  }
+}

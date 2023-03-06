@@ -1,0 +1,27 @@
+@import "./style_utils/utils";
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  font-family: inherit;
+  font-size: inherit;
+  color: $red-color;
+}
+
+.App {
+  padding: 70px 200px;
+  min-height: 100vh;
+  background-color: $red-color;
+  color: $dark-color;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+}
